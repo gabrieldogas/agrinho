@@ -1,0 +1,43 @@
+
+body {font-size: 20px;
+  color: white;
+
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+  }
+.texto {
+    font-size:45px; 
+   
+}
+
+h2{
+
+  font-size: 25;
+}
+
+.formulário {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0;
+}
