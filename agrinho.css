@@ -1,7 +1,56 @@
 
 body {font-size: 20px;
   color: white;
+
+  }
+
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
   
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;form {
+      color: #000000;
+     
+     }
+    box-shadow: inset 0 0 0 0 #5d5e4e;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #5d5e4e;
+  }
+  
+  button:active {
+    transform: scale(0.9);
   }
   
   h1 {
@@ -23,4 +72,21 @@ body {font-size: 20px;
 h2{
 
   font-size: 25;
+}
+
+.formulário {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0;
 }
